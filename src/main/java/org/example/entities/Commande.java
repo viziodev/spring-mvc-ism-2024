@@ -1,7 +1,12 @@
 package org.example.entities;
 
-import java.time.LocalDateTime;
+import lombok.*;
 
+import java.time.LocalDateTime;
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class Commande {
     private Long id;
     private LocalDateTime dateCmde;
